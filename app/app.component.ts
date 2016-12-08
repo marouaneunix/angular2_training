@@ -5,7 +5,7 @@ class Hero  {
 	id: number;
 	name: string;
 
-	constructor(id, name){
+	constructor(id:number, name:string){
 		this.id= id;
 		this.name = name;
 	}
@@ -26,5 +26,5 @@ class Hero  {
 
 export class AppComponent{
 	title = 'Tour of Heroes';
-	hero = new Hero("marouane",1,"hero_1");
+	hero = new Hero(1,"hero_1");
 }

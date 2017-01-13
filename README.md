@@ -25,15 +25,7 @@ Older versions produce errors.
 
 We recommend [nvm](https://github.com/creationix/nvm) for managing multiple versions of node and npm.
 
-## Create a new project based on the QuickStart
-
-Clone this repo into new project folder (e.g., `my-proj`).
-```bash
-git clone  https://github.com/angular/quickstart  my-proj
-cd my-proj
-```
-
-We have no intention of updating the source on `angular/quickstart`.
+ng the source on `angular/quickstart`.
 Discard everything "git-like" by deleting the `.git` folder.
 ```bash
 rm -rf .git  # non-Windows
